@@ -1,0 +1,11 @@
+{
+    "name": "cJSON",
+    "build": {
+        "srcDir": "cJSON",
+        "srcFilter": [
+            "+<cJSON.c>",
+            "+<cJSON_Utils.c>",
+            "-<*>"
+        ]
+    }
+}
